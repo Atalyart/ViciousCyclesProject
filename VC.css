@@ -6,3 +6,11 @@ background-size: cover;
 footer a:link {
     text-decoration-color: dodgerblue;
 }
+head {
+    background-color: #E7FBFB;
+}
+head {
+    font-size: 4em;
+    text-align: center;
+    color: #010b5b;
+}
