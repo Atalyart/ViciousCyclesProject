@@ -25,12 +25,12 @@ p {
 margin: 10px;
 }
 /* navigation bar container */
-li {
+nav {
     list-style-type: none;
-    /* removes underline*/
+    /* removes underline and bullets */
     text-decoration: none;
-    padding: 3px;
-    margin: 8px;
+    padding: 0px;
+    margin: 0px;
     overflow: hidden;
     border-right: #cbcbcb;
     background-color: aliceblue;
@@ -48,4 +48,5 @@ footer {
     list-style: none;
     background-color: #24442b; 
   color: #f6d621e1;
+  width: auto;
 }
