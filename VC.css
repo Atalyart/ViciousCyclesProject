@@ -1,13 +1,51 @@
+/* Website Header */
 h1 {
-    background-color: #E7FBFB;
+    background-color: #24442b; 
     font-size: 4em;
     text-align: center;
-    color: #010b5b;
+    color: #f6d621e1;
 } 
+/* logo */
+img {
+    position: center;
+}
+/* person on bike */
+img {
+    float: left;
+    margin: 10px;
+    width: 400px;
+    }
 div.container {
+    background-color: #24442b; 
   text-align: center;
   padding: 10px 20px;
 }
+/* Genral paragraph padding */
+p {
+margin: 10px;
+}
+/* navigation bar container */
+li {
+    list-style-type: none;
+    /* removes underline*/
+    text-decoration: none;
+    padding: 3px;
+    margin: 8px;
+    overflow: hidden;
+    border-right: #cbcbcb;
+    background-color: aliceblue;
+    display: block;
+    position: sticky;
+    top: 0;
+  }
+  /* Website background */
+body {
+    background-color: #cbcbcb;
+    list-style-type: none;
+}
+/* Footer information */
 footer {
-  text-decoration-color: dodgerblue;
+    list-style: none;
+    background-color: #24442b; 
+  color: #f6d621e1;
 }
