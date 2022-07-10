@@ -8,6 +8,8 @@ h1 {
 /* logo */
 img {
     position: center;
+    width: 200px;
+    height: auto;
 }
 /* person on bike */
 img {
@@ -22,21 +24,27 @@ div.container {
 }
 /* Genral paragraph padding */
 p {
-margin: 10px;
+  margin: 10px;
+  table-layout: fixed;
+  width: 700px; 
+  height: auto;
 }
 /* navigation bar container */
-li {
+nav {
     list-style-type: none;
-    /* removes underline*/
+    /* removes underline and bullets */
     text-decoration: none;
-    padding: 3px;
-    margin: 8px;
+    padding: 0px;
+    margin: 0px;
     overflow: hidden;
     border-right: #cbcbcb;
     background-color: aliceblue;
     display: block;
     position: sticky;
     top: 0;
+  }
+  .tab button:active {
+    background-color: rgb(87, 114, 89);
   }
   /* Website background */
 body {
@@ -48,4 +56,5 @@ footer {
     list-style: none;
     background-color: #24442b; 
   color: #f6d621e1;
+  width: auto;
 }
